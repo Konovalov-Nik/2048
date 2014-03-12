@@ -3,7 +3,7 @@
 
 $field-width: 500px;
 $grid-spacing: 15px;
-$grid-row-cells: 4;
+$grid-row-cells: 8;
 $tile-size: ($field-width - $grid-spacing * ($grid-row-cells + 1)) / $grid-row-cells;
 $tile-border-radius: 3px;
 
@@ -200,7 +200,7 @@ hr {
       text-align: center;
 
       p {
-        font-size: 60px;
+        font-size: 30px;
         font-weight: bold;
         height: 60px;
         line-height: 60px;
@@ -302,7 +302,7 @@ hr {
   font-weight: bold;
   z-index: 10;
 
-  font-size: 55px;
+  font-size: 20px;
 
   @include transition($transition-speed ease-in-out);
   @include transition-property(top, left);
